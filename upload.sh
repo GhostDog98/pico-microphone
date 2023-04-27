@@ -6,7 +6,13 @@ make
 cd ..
 name=$(find ./build/ -name "*.uf2")
 echo "found: $name"
-RPI="/run/media/$USER/RPI-RP2/"
+
+# Unix Path
+#RPI="/run/media/$USER/RPI-RP2/"
+
+# Macos Path
+RPI="/Volumes/RPI-RP2/"
+
 echo "waiting for RPI..."
 timeout=0
 while [ ! -d "$RPI" ]; do
@@ -19,7 +25,7 @@ while [ ! -d "$RPI" ]; do
 done
 echo "found $RPI"
 sleep 1
-cp $name /run/media/$USER/RPI-RP2/
+cp $name $RPI
 echo "written file"
 while [ -d "$RPI" ]; do
     sleep 1
