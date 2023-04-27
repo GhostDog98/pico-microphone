@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/usr/share/pico-sdk/tools/pioasm"
-  "/home/ghostdog/datalogger-mic/build/pioasm"
-  "/home/ghostdog/datalogger-mic/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm"
-  "/home/ghostdog/datalogger-mic/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp"
-  "/home/ghostdog/datalogger-mic/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp"
-  "/home/ghostdog/datalogger-mic/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src"
-  "/home/ghostdog/datalogger-mic/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp"
+  "/Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/tools/pioasm"
+  "/Users/aronj23/pico-microphone/build/pioasm"
+  "/Users/aronj23/pico-microphone/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm"
+  "/Users/aronj23/pico-microphone/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp"
+  "/Users/aronj23/pico-microphone/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp"
+  "/Users/aronj23/pico-microphone/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src"
+  "/Users/aronj23/pico-microphone/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/ghostdog/datalogger-mic/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/aronj23/pico-microphone/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/ghostdog/datalogger-mic/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/aronj23/pico-microphone/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp${cfgdir}") # cfgdir has leading slash
 endif()

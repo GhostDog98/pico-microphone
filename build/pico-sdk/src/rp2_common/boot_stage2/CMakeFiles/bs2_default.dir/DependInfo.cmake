@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/usr/share/pico-sdk/src/rp2_common/boot_stage2/compile_time_choice.S" "/home/ghostdog/datalogger-mic/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj"
+  "/Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/boot_stage2/compile_time_choice.S" "/Users/aronj23/pico-microphone/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -22,14 +22,14 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
-  "/usr/share/pico-sdk/src/rp2_common/boot_stage2/asminclude"
-  "/usr/share/pico-sdk/src/rp2040/hardware_regs/include"
-  "/usr/share/pico-sdk/src/rp2_common/hardware_base/include"
-  "/usr/share/pico-sdk/src/common/pico_base/include"
+  "_deps/pico_sdk-src/src/rp2_common/boot_stage2/asminclude"
+  "_deps/pico_sdk-src/src/rp2040/hardware_regs/include"
+  "_deps/pico_sdk-src/src/rp2_common/hardware_base/include"
+  "_deps/pico_sdk-src/src/common/pico_base/include"
   "generated/pico_base"
-  "/usr/share/pico-sdk/src/boards/include"
-  "/usr/share/pico-sdk/src/rp2_common/pico_platform/include"
-  "/usr/share/pico-sdk/src/rp2_common/boot_stage2/include"
+  "_deps/pico_sdk-src/src/boards/include"
+  "_deps/pico_sdk-src/src/rp2_common/pico_platform/include"
+  "_deps/pico_sdk-src/src/rp2_common/boot_stage2/include"
   )
 
 # The set of dependency files which are needed:

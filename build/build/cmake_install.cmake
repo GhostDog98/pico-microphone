@@ -1,4 +1,4 @@
-# Install script for directory: /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI
+# Install script for directory: /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/arm-none-eabi-objdump")
+  set(CMAKE_OBJDUMP "/usr/local/bin/arm-none-eabi-objdump")
 endif()
 

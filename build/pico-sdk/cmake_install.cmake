@@ -1,4 +1,4 @@
-# Install script for directory: /usr/share/pico-sdk
+# Install script for directory: /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,14 +34,14 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/arm-none-eabi-objdump")
+  set(CMAKE_OBJDUMP "/usr/local/bin/arm-none-eabi-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ghostdog/datalogger-mic/build/pico-sdk/tools/cmake_install.cmake")
-  include("/home/ghostdog/datalogger-mic/build/pico-sdk/src/cmake_install.cmake")
-  include("/home/ghostdog/datalogger-mic/build/pico-sdk/docs/cmake_install.cmake")
+  include("/Users/aronj23/pico-microphone/build/pico-sdk/tools/cmake_install.cmake")
+  include("/Users/aronj23/pico-microphone/build/pico-sdk/src/cmake_install.cmake")
+  include("/Users/aronj23/pico-microphone/build/pico-sdk/docs/cmake_install.cmake")
 
 endif()
 

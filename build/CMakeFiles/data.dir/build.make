@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.26.0/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /usr/local/Cellar/cmake/3.26.0/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ghostdog/datalogger-mic
+CMAKE_SOURCE_DIR = /Users/aronj23/pico-microphone
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ghostdog/datalogger-mic/build
+CMAKE_BINARY_DIR = /Users/aronj23/pico-microphone/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/data.dir/depend.make
@@ -70,1301 +70,1301 @@ include CMakeFiles/data.dir/progress.make
 include CMakeFiles/data.dir/flags.make
 
 CMakeFiles/data.dir/data.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/data.c.obj: /home/ghostdog/datalogger-mic/data.c
+CMakeFiles/data.dir/data.c.obj: /Users/aronj23/pico-microphone/data.c
 CMakeFiles/data.dir/data.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/data.dir/data.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/data.c.obj -MF CMakeFiles/data.dir/data.c.obj.d -o CMakeFiles/data.dir/data.c.obj -c /home/ghostdog/datalogger-mic/data.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/data.dir/data.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/data.c.obj -MF CMakeFiles/data.dir/data.c.obj.d -o CMakeFiles/data.dir/data.c.obj -c /Users/aronj23/pico-microphone/data.c
 
 CMakeFiles/data.dir/data.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/data.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghostdog/datalogger-mic/data.c > CMakeFiles/data.dir/data.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/data.c > CMakeFiles/data.dir/data.c.i
 
 CMakeFiles/data.dir/data.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/data.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghostdog/datalogger-mic/data.c -o CMakeFiles/data.dir/data.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/data.c -o CMakeFiles/data.dir/data.c.s
 
 CMakeFiles/data.dir/hw_config.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/hw_config.c.obj: /home/ghostdog/datalogger-mic/hw_config.c
+CMakeFiles/data.dir/hw_config.c.obj: /Users/aronj23/pico-microphone/hw_config.c
 CMakeFiles/data.dir/hw_config.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/data.dir/hw_config.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/hw_config.c.obj -MF CMakeFiles/data.dir/hw_config.c.obj.d -o CMakeFiles/data.dir/hw_config.c.obj -c /home/ghostdog/datalogger-mic/hw_config.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/data.dir/hw_config.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/hw_config.c.obj -MF CMakeFiles/data.dir/hw_config.c.obj.d -o CMakeFiles/data.dir/hw_config.c.obj -c /Users/aronj23/pico-microphone/hw_config.c
 
 CMakeFiles/data.dir/hw_config.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/hw_config.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghostdog/datalogger-mic/hw_config.c > CMakeFiles/data.dir/hw_config.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/hw_config.c > CMakeFiles/data.dir/hw_config.c.i
 
 CMakeFiles/data.dir/hw_config.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/hw_config.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghostdog/datalogger-mic/hw_config.c -o CMakeFiles/data.dir/hw_config.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/hw_config.c -o CMakeFiles/data.dir/hw_config.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /usr/share/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /usr/share/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdlib/stdlib.c.obj: _deps/pico_sdk-src/src/rp2_common/pico_stdlib/stdlib.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdlib/stdlib.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_stdlib/stdlib.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdlib/stdlib.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdlib/stdlib.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdlib/stdlib.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdlib/stdlib.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /usr/share/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /usr/share/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_gpio/gpio.c.obj: _deps/pico_sdk-src/src/rp2_common/hardware_gpio/gpio.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_gpio/gpio.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_gpio/gpio.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_gpio/gpio.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_gpio/gpio.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_gpio/gpio.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_gpio/gpio.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_gpio/gpio.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /usr/share/pico-sdk/src/rp2_common/pico_platform/platform.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /usr/share/pico-sdk/src/rp2_common/pico_platform/platform.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_platform/platform.c.obj: _deps/pico_sdk-src/src/rp2_common/pico_platform/platform.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_platform/platform.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_platform/platform.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_platform/platform.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_platform/platform.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/pico_platform/platform.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_platform/platform.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_platform/platform.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_platform/platform.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_platform/platform.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_platform/platform.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_platform/platform.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_platform/platform.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_platform/platform.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_platform/platform.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /usr/share/pico-sdk/src/rp2_common/hardware_claim/claim.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /usr/share/pico-sdk/src/rp2_common/hardware_claim/claim.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_claim/claim.c.obj: _deps/pico_sdk-src/src/rp2_common/hardware_claim/claim.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_claim/claim.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_claim/claim.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_claim/claim.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_claim/claim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_claim/claim.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_claim/claim.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_claim/claim.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_claim/claim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_claim/claim.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_claim/claim.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /usr/share/pico-sdk/src/rp2_common/hardware_sync/sync.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /usr/share/pico-sdk/src/rp2_common/hardware_sync/sync.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_sync/sync.c.obj: _deps/pico_sdk-src/src/rp2_common/hardware_sync/sync.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_sync/sync.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_sync/sync.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_sync/sync.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_sync/sync.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_sync/sync.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_sync/sync.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_sync/sync.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_sync/sync.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_sync/sync.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_sync/sync.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /usr/share/pico-sdk/src/rp2_common/hardware_irq/irq.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /usr/share/pico-sdk/src/rp2_common/hardware_irq/irq.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj: _deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /usr/share/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building ASM object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /usr/share/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: _deps/pico_sdk-src/src/rp2_common/hardware_irq/irq_handler_chain.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building ASM object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq_handler_chain.S
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s"
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq_handler_chain.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq_handler_chain.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/sem.c.obj: /usr/share/pico-sdk/src/common/pico_sync/sem.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/sem.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/sem.c.obj -c /usr/share/pico-sdk/src/common/pico_sync/sem.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/sem.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/sem.c.obj: _deps/pico_sdk-src/src/common/pico_sync/sem.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/sem.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/sem.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/sem.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/sem.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common/pico_sync/sem.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/sem.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/sem.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/sem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/sem.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common/pico_sync/sem.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/sem.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/sem.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/sem.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/sem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/sem.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common/pico_sync/sem.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/sem.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/lock_core.c.obj: /usr/share/pico-sdk/src/common/pico_sync/lock_core.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/lock_core.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /usr/share/pico-sdk/src/common/pico_sync/lock_core.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/lock_core.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/lock_core.c.obj: _deps/pico_sdk-src/src/common/pico_sync/lock_core.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/lock_core.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/lock_core.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/lock_core.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common/pico_sync/lock_core.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/lock_core.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/lock_core.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/lock_core.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/lock_core.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common/pico_sync/lock_core.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/lock_core.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/lock_core.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/lock_core.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/lock_core.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/lock_core.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common/pico_sync/lock_core.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/lock_core.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/mutex.c.obj: /usr/share/pico-sdk/src/common/pico_sync/mutex.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/mutex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/mutex.c.obj -c /usr/share/pico-sdk/src/common/pico_sync/mutex.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.obj: _deps/pico_sdk-src/src/common/pico_sync/mutex.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common/pico_sync/mutex.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/mutex.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/mutex.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common/pico_sync/mutex.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/mutex.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/mutex.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common/pico_sync/mutex.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/critical_section.c.obj: /usr/share/pico-sdk/src/common/pico_sync/critical_section.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/critical_section.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /usr/share/pico-sdk/src/common/pico_sync/critical_section.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/critical_section.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/critical_section.c.obj: _deps/pico_sdk-src/src/common/pico_sync/critical_section.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/critical_section.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/critical_section.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/critical_section.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common/pico_sync/critical_section.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/critical_section.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/critical_section.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/critical_section.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/critical_section.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common/pico_sync/critical_section.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/critical_section.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/critical_section.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/critical_section.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/critical_section.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/critical_section.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common/pico_sync/critical_section.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/critical_section.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/time.c.obj: /usr/share/pico-sdk/src/common/pico_time/time.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/time.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/time.c.obj -c /usr/share/pico-sdk/src/common/pico_time/time.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj: _deps/pico_sdk-src/src/common/pico_time/time.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common/pico_time/time.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/time.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/time.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/common/pico_time/time.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/time.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common/pico_time/time.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/time.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/time.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/time.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common/pico_time/time.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /usr/share/pico-sdk/src/common/pico_time/timeout_helper.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /usr/share/pico-sdk/src/common/pico_time/timeout_helper.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/timeout_helper.c.obj: _deps/pico_sdk-src/src/common/pico_time/timeout_helper.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/timeout_helper.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/timeout_helper.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common/pico_time/timeout_helper.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/timeout_helper.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/timeout_helper.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/timeout_helper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/timeout_helper.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common/pico_time/timeout_helper.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/timeout_helper.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/timeout_helper.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/timeout_helper.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/timeout_helper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/timeout_helper.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common/pico_time/timeout_helper.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/timeout_helper.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /usr/share/pico-sdk/src/rp2_common/hardware_timer/timer.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /usr/share/pico-sdk/src/rp2_common/hardware_timer/timer.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj: _deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/datetime.c.obj: /usr/share/pico-sdk/src/common/pico_util/datetime.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/datetime.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/datetime.c.obj -c /usr/share/pico-sdk/src/common/pico_util/datetime.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/datetime.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/datetime.c.obj: _deps/pico_sdk-src/src/common/pico_util/datetime.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/datetime.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/datetime.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/datetime.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/datetime.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common/pico_util/datetime.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/datetime.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/datetime.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/datetime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/datetime.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common/pico_util/datetime.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/datetime.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/datetime.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/datetime.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/datetime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/datetime.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common/pico_util/datetime.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/datetime.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/pheap.c.obj: /usr/share/pico-sdk/src/common/pico_util/pheap.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/pheap.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/pheap.c.obj -c /usr/share/pico-sdk/src/common/pico_util/pheap.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj: _deps/pico_sdk-src/src/common/pico_util/pheap.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common/pico_util/pheap.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/pheap.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/pheap.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common/pico_util/pheap.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/pheap.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/pheap.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common/pico_util/pheap.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/queue.c.obj: /usr/share/pico-sdk/src/common/pico_util/queue.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/queue.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/queue.c.obj -c /usr/share/pico-sdk/src/common/pico_util/queue.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/queue.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/queue.c.obj: _deps/pico_sdk-src/src/common/pico_util/queue.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/queue.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/queue.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/queue.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/queue.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/queue.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common/pico_util/queue.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/queue.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/queue.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/queue.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common/pico_util/queue.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/queue.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/queue.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/queue.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/queue.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common/pico_util/queue.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/queue.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /usr/share/pico-sdk/src/rp2_common/hardware_uart/uart.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /usr/share/pico-sdk/src/rp2_common/hardware_uart/uart.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_uart/uart.c.obj: _deps/pico_sdk-src/src/rp2_common/hardware_uart/uart.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_uart/uart.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_uart/uart.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_uart/uart.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_uart/uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_uart/uart.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_uart/uart.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_uart/uart.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_uart/uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_uart/uart.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_uart/uart.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /usr/share/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /usr/share/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c.obj: _deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /usr/share/pico-sdk/src/rp2_common/hardware_pll/pll.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /usr/share/pico-sdk/src/rp2_common/hardware_pll/pll.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_pll/pll.c.obj: _deps/pico_sdk-src/src/rp2_common/hardware_pll/pll.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_pll/pll.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_pll/pll.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_pll/pll.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_pll/pll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_pll/pll.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_pll/pll.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_pll/pll.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_pll/pll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_pll/pll.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_pll/pll.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /usr/share/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /usr/share/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_vreg/vreg.c.obj: _deps/pico_sdk-src/src/rp2_common/hardware_vreg/vreg.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_vreg/vreg.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_vreg/vreg.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_vreg/vreg.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_vreg/vreg.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_vreg/vreg.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_vreg/vreg.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_vreg/vreg.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /usr/share/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /usr/share/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_watchdog/watchdog.c.obj: _deps/pico_sdk-src/src/rp2_common/hardware_watchdog/watchdog.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_watchdog/watchdog.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_watchdog/watchdog.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_watchdog/watchdog.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_watchdog/watchdog.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_watchdog/watchdog.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /usr/share/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /usr/share/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_xosc/xosc.c.obj: _deps/pico_sdk-src/src/rp2_common/hardware_xosc/xosc.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_xosc/xosc.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_xosc/xosc.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_xosc/xosc.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_xosc/xosc.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_xosc/xosc.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_xosc/xosc.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_xosc/xosc.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /usr/share/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building ASM object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /usr/share/pico-sdk/src/rp2_common/hardware_divider/divider.S
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_divider/divider.S.obj: _deps/pico_sdk-src/src/rp2_common/hardware_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building ASM object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_divider/divider.S.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_divider/divider.S.obj   -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_divider/divider.S
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_divider/divider.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_divider/divider.S.i"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_divider/divider.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_divider/divider.S.s"
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_divider/divider.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_divider/divider.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /usr/share/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /usr/share/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj: _deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /usr/share/pico-sdk/src/rp2_common/pico_printf/printf.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /usr/share/pico-sdk/src/rp2_common/pico_printf/printf.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c.obj: _deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /usr/share/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building ASM object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /usr/share/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: _deps/pico_sdk-src/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building ASM object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s"
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /usr/share/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /usr/share/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_bootrom/bootrom.c.obj: _deps/pico_sdk-src/src/rp2_common/pico_bootrom/bootrom.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_bootrom/bootrom.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_bootrom/bootrom.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_bootrom/bootrom.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_bootrom/bootrom.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_bootrom/bootrom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_bootrom/bootrom.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_bootrom/bootrom.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /usr/share/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /usr/share/pico-sdk/src/rp2_common/pico_divider/divider.S
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_divider/divider.S.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_divider/divider.S.obj: _deps/pico_sdk-src/src/rp2_common/pico_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_divider/divider.S.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_divider/divider.S.obj   -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_divider/divider.S
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_divider/divider.S.i"
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_divider/divider.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_divider/divider.S.i"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_divider/divider.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_divider/divider.S.s"
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_divider/divider.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_divider/divider.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /usr/share/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /usr/share/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_aeabi.S.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_aeabi.S.obj: _deps/pico_sdk-src/src/rp2_common/pico_double/double_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_aeabi.S.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_aeabi.S.obj   -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_double/double_aeabi.S
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i"
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_aeabi.S.i"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s"
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_aeabi.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /usr/share/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /usr/share/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_init_rom.c.obj: _deps/pico_sdk-src/src/rp2_common/pico_double/double_init_rom.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_init_rom.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_init_rom.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_double/double_init_rom.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/pico_double/double_init_rom.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_init_rom.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_double/double_init_rom.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_init_rom.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/pico_double/double_init_rom.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_init_rom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_init_rom.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_double/double_init_rom.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_init_rom.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /usr/share/pico-sdk/src/rp2_common/pico_double/double_math.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /usr/share/pico-sdk/src/rp2_common/pico_double/double_math.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_math.c.obj: _deps/pico_sdk-src/src/rp2_common/pico_double/double_math.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_math.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_math.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_double/double_math.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_math.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_math.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_math.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_double/double_math.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_math.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_math.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_math.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_math.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_double/double_math.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_math.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /usr/share/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /usr/share/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: _deps/pico_sdk-src/src/rp2_common/pico_double/double_v1_rom_shim.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_double/double_v1_rom_shim.S
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i"
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_v1_rom_shim.S.i"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s"
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_v1_rom_shim.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_v1_rom_shim.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /usr/share/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /usr/share/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: _deps/pico_sdk-src/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s"
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /usr/share/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /usr/share/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_aeabi.S.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_aeabi.S.obj: _deps/pico_sdk-src/src/rp2_common/pico_float/float_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_aeabi.S.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_aeabi.S.obj   -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_float/float_aeabi.S
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i"
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_aeabi.S.i"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s"
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_aeabi.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /usr/share/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /usr/share/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_init_rom.c.obj: _deps/pico_sdk-src/src/rp2_common/pico_float/float_init_rom.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_init_rom.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_init_rom.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_float/float_init_rom.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/pico_float/float_init_rom.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_init_rom.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_float/float_init_rom.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_init_rom.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/pico_float/float_init_rom.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_init_rom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_init_rom.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_float/float_init_rom.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_init_rom.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /usr/share/pico-sdk/src/rp2_common/pico_float/float_math.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /usr/share/pico-sdk/src/rp2_common/pico_float/float_math.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_math.c.obj: _deps/pico_sdk-src/src/rp2_common/pico_float/float_math.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_math.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_math.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_float/float_math.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_math.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_math.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_math.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_float/float_math.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_math.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_math.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_math.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_math.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_float/float_math.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_math.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /usr/share/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /usr/share/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: _deps/pico_sdk-src/src/rp2_common/pico_float/float_v1_rom_shim.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_float/float_v1_rom_shim.S
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i"
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_v1_rom_shim.S.i"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s"
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_v1_rom_shim.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_v1_rom_shim.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /usr/share/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /usr/share/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_malloc/pico_malloc.c.obj: _deps/pico_sdk-src/src/rp2_common/pico_malloc/pico_malloc.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_malloc/pico_malloc.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_malloc/pico_malloc.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_malloc/pico_malloc.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_malloc/pico_malloc.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_malloc/pico_malloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_malloc/pico_malloc.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_malloc/pico_malloc.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_malloc/pico_malloc.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /usr/share/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /usr/share/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: _deps/pico_sdk-src/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s"
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /usr/share/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /usr/share/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/crt0.S.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/crt0.S.obj: _deps/pico_sdk-src/src/rp2_common/pico_standard_link/crt0.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/crt0.S.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/crt0.S.obj   -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/crt0.S
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i"
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/crt0.S.i"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s"
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/crt0.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/crt0.S.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /usr/share/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /usr/share/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /usr/share/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /usr/share/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /usr/share/pico-sdk/src/rp2_common/pico_stdio/stdio.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /usr/share/pico-sdk/src/rp2_common/pico_stdio/stdio.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /usr/share/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /usr/share/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /usr/share/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /usr/share/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /usr/share/pico-sdk/src/rp2_common/hardware_flash/flash.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /usr/share/pico-sdk/src/rp2_common/hardware_flash/flash.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/hardware_flash/flash.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /usr/share/pico-sdk/lib/tinyusb/src/device/usbd.c
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /usr/share/pico-sdk/lib/tinyusb/src/device/usbd.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /usr/share/pico-sdk/lib/tinyusb/src/device/usbd_control.c
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /usr/share/pico-sdk/lib/tinyusb/src/device/usbd_control.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /usr/share/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /usr/share/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /usr/share/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /usr/share/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c > CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /usr/share/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /usr/share/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /usr/share/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /usr/share/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /usr/share/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /usr/share/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /usr/share/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /usr/share/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c > CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /usr/share/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /usr/share/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c > CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /usr/share/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /usr/share/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /usr/share/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /usr/share/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /usr/share/pico-sdk/lib/tinyusb/src/class/video/video_device.c
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /usr/share/pico-sdk/lib/tinyusb/src/class/video/video_device.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/lib/tinyusb/src/class/video/video_device.c > CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/lib/tinyusb/src/class/video/video_device.c -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/tusb.c.obj: /usr/share/pico-sdk/lib/tinyusb/src/tusb.c
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/tusb.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/tusb.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /usr/share/pico-sdk/lib/tinyusb/src/tusb.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/tusb.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/tusb.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/tusb.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/tusb.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /usr/share/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /usr/share/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /usr/share/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /usr/share/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /usr/share/pico-sdk/src/rp2_common/hardware_adc/adc.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -c /usr/share/pico-sdk/src/rp2_common/hardware_adc/adc.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_adc/adc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/hardware_adc/adc.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_adc/adc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_adc/adc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: /usr/share/pico-sdk/src/rp2_common/hardware_dma/dma.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -c /usr/share/pico-sdk/src/rp2_common/hardware_dma/dma.c
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_dma/dma.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/hardware_dma/dma.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
-
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_dma/dma.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_dma/dma.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/hardware_dma/dma.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/new_delete.cpp.obj: _deps/pico_sdk-src/src/rp2_common/pico_standard_link/new_delete.cpp
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/new_delete.cpp
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/new_delete.cpp.i"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/new_delete.cpp > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/new_delete.cpp.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/new_delete.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/new_delete.cpp.s"
+	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/new_delete.cpp -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/new_delete.cpp.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj: _deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.obj: _deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: _deps/pico_sdk-src/src/rp2_common/pico_stdio_uart/stdio_uart.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_stdio_uart/stdio_uart.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: _deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/reset_interface.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/reset_interface.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/reset_interface.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/reset_interface.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: _deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: _deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c.obj: _deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_flash/flash.c.obj: _deps/pico_sdk-src/src/rp2_common/hardware_flash/flash.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_flash/flash.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_flash/flash.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_flash/flash.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_flash/flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_flash/flash.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_flash/flash.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_flash/flash.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_flash/flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_flash/flash.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_flash/flash.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: _deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: _deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd.c.obj: _deps/pico_sdk-src/lib/tinyusb/src/device/usbd.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd.c > CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd_control.c.obj: _deps/pico_sdk-src/lib/tinyusb/src/device/usbd_control.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd_control.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd_control.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd_control.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd_control.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd_control.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd_control.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd_control.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd_control.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/audio/audio_device.c.obj: _deps/pico_sdk-src/lib/tinyusb/src/class/audio/audio_device.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/audio/audio_device.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/audio/audio_device.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/audio/audio_device.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/audio/audio_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/audio/audio_device.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/audio/audio_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/audio/audio_device.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/cdc/cdc_device.c.obj: _deps/pico_sdk-src/lib/tinyusb/src/class/cdc/cdc_device.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/cdc/cdc_device.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/cdc/cdc_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/cdc/cdc_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_device.c.obj: _deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_device.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_device.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_device.c > CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_device.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: _deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/hid/hid_device.c.obj: _deps/pico_sdk-src/lib/tinyusb/src/class/hid/hid_device.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/hid/hid_device.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/hid/hid_device.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/hid/hid_device.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/hid/hid_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/hid/hid_device.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/hid/hid_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/hid/hid_device.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/midi/midi_device.c.obj: _deps/pico_sdk-src/lib/tinyusb/src/class/midi/midi_device.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/midi/midi_device.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/midi/midi_device.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/midi/midi_device.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/midi/midi_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/midi/midi_device.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/midi/midi_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/midi/midi_device.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/msc/msc_device.c.obj: _deps/pico_sdk-src/lib/tinyusb/src/class/msc/msc_device.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/msc/msc_device.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/msc/msc_device.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/msc/msc_device.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/msc/msc_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/msc/msc_device.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/msc/msc_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/msc/msc_device.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: _deps/pico_sdk-src/lib/tinyusb/src/class/net/ecm_rndis_device.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ecm_rndis_device.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ecm_rndis_device.c > CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ecm_rndis_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ecm_rndis_device.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ncm_device.c.obj: _deps/pico_sdk-src/lib/tinyusb/src/class/net/ncm_device.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ncm_device.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ncm_device.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ncm_device.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ncm_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ncm_device.c > CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ncm_device.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ncm_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ncm_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ncm_device.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ncm_device.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: _deps/pico_sdk-src/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/vendor/vendor_device.c.obj: _deps/pico_sdk-src/lib/tinyusb/src/class/vendor/vendor_device.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/vendor/vendor_device.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/vendor/vendor_device.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/vendor/vendor_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/vendor/vendor_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/video/video_device.c.obj: _deps/pico_sdk-src/lib/tinyusb/src/class/video/video_device.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/video/video_device.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/video/video_device.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/video/video_device.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/video/video_device.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/video/video_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/video/video_device.c > CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/video/video_device.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/video/video_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/video/video_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/class/video/video_device.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/video/video_device.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/tusb.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/tusb.c.obj: _deps/pico_sdk-src/lib/tinyusb/src/tusb.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/tusb.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/tusb.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/tusb.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/tusb.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/tusb.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/tusb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/tusb.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/tusb.c > CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/tusb.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/tusb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/tusb.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/tusb.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/tusb.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/common/tusb_fifo.c.obj: _deps/pico_sdk-src/lib/tinyusb/src/common/tusb_fifo.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/common/tusb_fifo.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/common/tusb_fifo.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/common/tusb_fifo.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/common/tusb_fifo.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/common/tusb_fifo.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/common/tusb_fifo.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/common/tusb_fifo.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: _deps/pico_sdk-src/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.obj: _deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.s
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_dma/dma.c.obj: _deps/pico_sdk-src/src/rp2_common/hardware_dma/dma.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_dma/dma.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_dma/dma.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_dma/dma.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_dma/dma.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_dma/dma.c
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_dma/dma.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_dma/dma.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_dma/dma.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_dma/dma.c.i
+
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_dma/dma.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_dma/dma.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_dma/dma.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_dma/dma.c.s
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj: /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c
+CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj: /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj -MF CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj.d -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj -c /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj -MF CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj.d -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj -c /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c > CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c > CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj: /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c
+CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj: /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj -MF CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj.d -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj -c /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj -MF CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj.d -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj -c /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c > CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c > CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj: /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c
+CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj: /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj -MF CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj.d -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj -c /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj -MF CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj.d -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj -c /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c > CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c > CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj: /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c
+CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj: /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj -MF CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj.d -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj -c /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj -MF CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj.d -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj -c /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c > CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c > CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj: /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c
+CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj: /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj -MF CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj.d -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj -c /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj -MF CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj.d -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj -c /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c > CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c > CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj: /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c
+CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj: /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj -MF CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj.d -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj -c /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj -MF CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj.d -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj -c /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c > CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c > CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj: /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c
+CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj: /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj -MF CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj.d -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj -c /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj -MF CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj.d -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj -c /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c > CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c > CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj: /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c
+CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj: /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj -MF CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj.d -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj -c /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj -MF CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj.d -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj -c /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c > CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c > CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj: /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c
+CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj: /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj -MF CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj.d -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj -c /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj -MF CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj.d -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj -c /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c > CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c > CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj: /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c
+CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj: /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj -MF CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj.d -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj -c /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj -MF CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj.d -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj -c /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c > CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c > CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj: /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c
+CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj: /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj -MF CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj.d -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj -c /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj -MF CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj.d -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj -c /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c > CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c > CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj: /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c
+CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj: /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj -MF CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj.d -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj -c /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj -MF CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj.d -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj -c /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c > CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c > CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj: /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c
+CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj: /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj -MF CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj.d -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj -c /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj -MF CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj.d -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj -c /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c > CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c > CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i
 
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c -o CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /usr/share/pico-sdk/src/rp2_common/hardware_spi/spi.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -c /usr/share/pico-sdk/src/rp2_common/hardware_spi/spi.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_spi/spi.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_spi/spi.c.obj: _deps/pico_sdk-src/src/rp2_common/hardware_spi/spi.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_spi/spi.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_spi/spi.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_spi/spi.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_spi/spi.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_spi/spi.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_spi/spi.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_spi/spi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_spi/spi.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/hardware_spi/spi.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_spi/spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_spi/spi.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_spi/spi.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_spi/spi.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_spi/spi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_spi/spi.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/hardware_spi/spi.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_spi/spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_spi/spi.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_spi/spi.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_spi/spi.c.s
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj: CMakeFiles/data.dir/flags.make
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj: /usr/share/pico-sdk/src/rp2_common/hardware_rtc/rtc.c
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj: CMakeFiles/data.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj -MF CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj.d -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj -c /usr/share/pico-sdk/src/rp2_common/hardware_rtc/rtc.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_rtc/rtc.c.obj: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_rtc/rtc.c.obj: _deps/pico_sdk-src/src/rp2_common/hardware_rtc/rtc.c
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_rtc/rtc.c.obj: CMakeFiles/data.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_rtc/rtc.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_rtc/rtc.c.obj -MF CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_rtc/rtc.c.obj.d -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_rtc/rtc.c.obj -c /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_rtc/rtc.c
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /usr/share/pico-sdk/src/rp2_common/hardware_rtc/rtc.c > CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_rtc/rtc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_rtc/rtc.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_rtc/rtc.c > CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_rtc/rtc.c.i
 
-CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /usr/share/pico-sdk/src/rp2_common/hardware_rtc/rtc.c -o CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s
+CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_rtc/rtc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_rtc/rtc.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/hardware_rtc/rtc.c -o CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_rtc/rtc.c.s
 
 # Object files for target data
 data_OBJECTS = \
 "CMakeFiles/data.dir/data.c.obj" \
 "CMakeFiles/data.dir/hw_config.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/sem.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/mutex.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/time.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/datetime.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/pheap.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/queue.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_divider/divider.S.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_math.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_math.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdlib/stdlib.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_gpio/gpio.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_platform/platform.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_claim/claim.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_sync/sync.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/sem.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/lock_core.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/critical_section.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/timeout_helper.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/datetime.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/queue.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_uart/uart.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_pll/pll.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_vreg/vreg.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_xosc/xosc.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_divider/divider.S.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_bootrom/bootrom.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_divider/divider.S.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_aeabi.S.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_init_rom.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_math.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_v1_rom_shim.S.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_aeabi.S.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_init_rom.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_math.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_v1_rom_shim.S.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_malloc/pico_malloc.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/crt0.S.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_flash/flash.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd_control.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/audio/audio_device.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/cdc/cdc_device.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_device.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/hid/hid_device.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/midi/midi_device.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/msc/msc_device.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ncm_device.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/vendor/vendor_device.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/video/video_device.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/tusb.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/common/tusb_fifo.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_dma/dma.c.obj" \
 "CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj" \
 "CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj" \
 "CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj" \
@@ -1378,85 +1378,85 @@ data_OBJECTS = \
 "CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj" \
 "CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj" \
 "CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj" \
-"CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj"
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_spi/spi.c.obj" \
+"CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_rtc/rtc.c.obj"
 
 # External object files for target data
 data_EXTERNAL_OBJECTS =
 
 data.elf: CMakeFiles/data.dir/data.c.obj
 data.elf: CMakeFiles/data.dir/hw_config.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/sem.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/lock_core.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/mutex.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_sync/critical_section.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/time.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/datetime.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/pheap.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/common/pico_util/queue.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/tusb.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdlib/stdlib.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_gpio/gpio.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_platform/platform.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_claim/claim.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_sync/sync.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/sem.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/lock_core.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_sync/critical_section.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_time/timeout_helper.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/datetime.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/common/pico_util/queue.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_uart/uart.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_pll/pll.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_vreg/vreg.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_watchdog/watchdog.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_xosc/xosc.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_divider/divider.S.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_bootrom/bootrom.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_divider/divider.S.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_aeabi.S.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_init_rom.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_math.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_aeabi.S.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_init_rom.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_math.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_malloc/pico_malloc.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/crt0.S.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_flash/flash.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd_control.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/audio/audio_device.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/hid/hid_device.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/midi/midi_device.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/msc/msc_device.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/net/ncm_device.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/class/video/video_device.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/tusb.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/lib/tinyusb/src/common/tusb_fifo.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_adc/adc.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_dma/dma.c.obj
 data.elf: CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj
 data.elf: CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj
 data.elf: CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj
@@ -1470,18 +1470,18 @@ data.elf: CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c
 data.elf: CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj
 data.elf: CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj
 data.elf: CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
-data.elf: CMakeFiles/data.dir/usr/share/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_spi/spi.c.obj
+data.elf: CMakeFiles/data.dir/_deps/pico_sdk-src/src/rp2_common/hardware_rtc/rtc.c.obj
 data.elf: CMakeFiles/data.dir/build.make
 data.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 data.elf: CMakeFiles/data.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Linking CXX executable data.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Linking CXX executable data.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/data.dir/link.txt --verbose=$(VERBOSE)
-	/usr/bin/arm-none-eabi-objcopy -Oihex /home/ghostdog/datalogger-mic/build/data.elf data.hex
-	/usr/bin/arm-none-eabi-objcopy -Obinary /home/ghostdog/datalogger-mic/build/data.elf data.bin
-	/usr/bin/arm-none-eabi-objdump -h /home/ghostdog/datalogger-mic/build/data.elf > data.dis
-	/usr/bin/arm-none-eabi-objdump -d /home/ghostdog/datalogger-mic/build/data.elf >> data.dis
-	elf2uf2/elf2uf2 /home/ghostdog/datalogger-mic/build/data.elf data.uf2
+	/usr/local/bin/arm-none-eabi-objcopy -Oihex /Users/aronj23/pico-microphone/build/data.elf data.hex
+	/usr/local/bin/arm-none-eabi-objcopy -Obinary /Users/aronj23/pico-microphone/build/data.elf data.bin
+	/usr/local/bin/arm-none-eabi-objdump -h /Users/aronj23/pico-microphone/build/data.elf > data.dis
+	/usr/local/bin/arm-none-eabi-objdump -d /Users/aronj23/pico-microphone/build/data.elf >> data.dis
+	elf2uf2/elf2uf2 /Users/aronj23/pico-microphone/build/data.elf data.uf2
 
 # Rule to build all files generated by this target.
 CMakeFiles/data.dir/build: data.elf
@@ -1492,6 +1492,6 @@ CMakeFiles/data.dir/clean:
 .PHONY : CMakeFiles/data.dir/clean
 
 CMakeFiles/data.dir/depend:
-	cd /home/ghostdog/datalogger-mic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ghostdog/datalogger-mic /home/ghostdog/datalogger-mic /home/ghostdog/datalogger-mic/build /home/ghostdog/datalogger-mic/build /home/ghostdog/datalogger-mic/build/CMakeFiles/data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/aronj23/pico-microphone/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aronj23/pico-microphone /Users/aronj23/pico-microphone /Users/aronj23/pico-microphone/build /Users/aronj23/pico-microphone/build /Users/aronj23/pico-microphone/build/CMakeFiles/data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/data.dir/depend
 

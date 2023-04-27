@@ -4,6 +4,6 @@
 
 method=source_dir
 command=
-source_dir=/usr/share/pico-sdk/tools/elf2uf2
+source_dir=/Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/tools/elf2uf2
 work_dir=
 

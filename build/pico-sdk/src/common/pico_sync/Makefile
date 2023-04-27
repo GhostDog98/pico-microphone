@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.26.0/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /usr/local/Cellar/cmake/3.26.0/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ghostdog/datalogger-mic
+CMAKE_SOURCE_DIR = /Users/aronj23/pico-microphone
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ghostdog/datalogger-mic/build
+CMAKE_BINARY_DIR = /Users/aronj23/pico-microphone/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/ghostdog/datalogger-mic/build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.26.0/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.26.0/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ghostdog/datalogger-mic/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ghostdog/datalogger-mic/build/CMakeFiles /home/ghostdog/datalogger-mic/build/pico-sdk/src/common/pico_sync//CMakeFiles/progress.marks
-	cd /home/ghostdog/datalogger-mic/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_sync/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ghostdog/datalogger-mic/build/CMakeFiles 0
+	cd /Users/aronj23/pico-microphone/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/aronj23/pico-microphone/build/CMakeFiles /Users/aronj23/pico-microphone/build/pico-sdk/src/common/pico_sync//CMakeFiles/progress.marks
+	cd /Users/aronj23/pico-microphone/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_sync/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aronj23/pico-microphone/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ghostdog/datalogger-mic/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_sync/clean
+	cd /Users/aronj23/pico-microphone/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_sync/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,17 +103,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ghostdog/datalogger-mic/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_sync/preinstall
+	cd /Users/aronj23/pico-microphone/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_sync/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ghostdog/datalogger-mic/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_sync/preinstall
+	cd /Users/aronj23/pico-microphone/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_sync/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ghostdog/datalogger-mic/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/aronj23/pico-microphone/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -135,6 +135,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ghostdog/datalogger-mic/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/aronj23/pico-microphone/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

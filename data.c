@@ -85,7 +85,7 @@ void configureDMA(bool currentbuf){
         );
     }
 
-    dma_channel_set_irq0_enabled(dma_chan, true);
+    //dma_channel_set_irq0_enabled(dma_chan, true);
     irq_set_exclusive_handler(DMA_IRQ_0, dma_irq_handler);
     irq_set_enabled(DMA_IRQ_0, true);
     dma_channel_start(dma_chan);

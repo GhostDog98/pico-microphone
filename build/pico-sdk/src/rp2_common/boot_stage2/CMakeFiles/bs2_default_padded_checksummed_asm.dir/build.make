@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.26.0/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /usr/local/Cellar/cmake/3.26.0/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ghostdog/datalogger-mic
+CMAKE_SOURCE_DIR = /Users/aronj23/pico-microphone
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ghostdog/datalogger-mic/build
+CMAKE_BINARY_DIR = /Users/aronj23/pico-microphone/build
 
 # Utility rule file for bs2_default_padded_checksummed_asm.
 
@@ -69,12 +69,12 @@ include pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checks
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 
 pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default_padded_checksummed.S"
-	cd /home/ghostdog/datalogger-mic/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/python3.10 /usr/share/pico-sdk/src/rp2_common/boot_stage2/pad_checksum -s 0xffffffff /home/ghostdog/datalogger-mic/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin /home/ghostdog/datalogger-mic/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default_padded_checksummed.S"
+	cd /Users/aronj23/pico-microphone/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/local/Frameworks/Python.framework/Versions/3.11/bin/python3.11 /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/boot_stage2/pad_checksum -s 0xffffffff /Users/aronj23/pico-microphone/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin /Users/aronj23/pico-microphone/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 
 pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating bs2_default.bin"
-	cd /home/ghostdog/datalogger-mic/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/arm-none-eabi-objcopy -Obinary /home/ghostdog/datalogger-mic/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf /home/ghostdog/datalogger-mic/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating bs2_default.bin"
+	cd /Users/aronj23/pico-microphone/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/local/bin/arm-none-eabi-objcopy -Obinary /Users/aronj23/pico-microphone/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf /Users/aronj23/pico-microphone/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 bs2_default_padded_checksummed_asm: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm
 bs2_default_padded_checksummed_asm: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
@@ -87,10 +87,10 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_as
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/clean:
-	cd /home/ghostdog/datalogger-mic/build/pico-sdk/src/rp2_common/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_padded_checksummed_asm.dir/cmake_clean.cmake
+	cd /Users/aronj23/pico-microphone/build/pico-sdk/src/rp2_common/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_padded_checksummed_asm.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/clean
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/depend:
-	cd /home/ghostdog/datalogger-mic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ghostdog/datalogger-mic /usr/share/pico-sdk/src/rp2_common/boot_stage2 /home/ghostdog/datalogger-mic/build /home/ghostdog/datalogger-mic/build/pico-sdk/src/rp2_common/boot_stage2 /home/ghostdog/datalogger-mic/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/aronj23/pico-microphone/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aronj23/pico-microphone /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/boot_stage2 /Users/aronj23/pico-microphone/build /Users/aronj23/pico-microphone/build/pico-sdk/src/rp2_common/boot_stage2 /Users/aronj23/pico-microphone/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/depend
 

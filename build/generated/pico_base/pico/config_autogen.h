@@ -4,8 +4,8 @@
 
 // based on PICO_CONFIG_HEADER_FILES:
 
-#include "/usr/share/pico-sdk/src/boards/include/boards/pico.h"
+#include "/Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/boards/include/boards/pico.h"
 
 // based on PICO_RP2040_CONFIG_HEADER_FILES:
 
-#include "/usr/share/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h"
+#include "/Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h"

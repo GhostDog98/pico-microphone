@@ -1,4 +1,4 @@
-# Install script for directory: /home/ghostdog/datalogger-mic
+# Install script for directory: /Users/aronj23/pico-microphone
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,13 +34,13 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/arm-none-eabi-objdump")
+  set(CMAKE_OBJDUMP "/usr/local/bin/arm-none-eabi-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ghostdog/datalogger-mic/build/pico-sdk/cmake_install.cmake")
-  include("/home/ghostdog/datalogger-mic/build/build/cmake_install.cmake")
+  include("/Users/aronj23/pico-microphone/build/pico-sdk/cmake_install.cmake")
+  include("/Users/aronj23/pico-microphone/build/build/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ghostdog/datalogger-mic/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/aronj23/pico-microphone/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

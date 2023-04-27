@@ -1,28 +1,29 @@
 CMakeFiles/data.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj: \
- /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c \
- /usr/arm-none-eabi/include/string.h /usr/arm-none-eabi/include/_ansi.h \
- /usr/arm-none-eabi/include/newlib.h \
- /usr/arm-none-eabi/include/_newlib_version.h \
- /usr/arm-none-eabi/include/sys/config.h \
- /usr/arm-none-eabi/include/machine/ieeefp.h \
- /usr/arm-none-eabi/include/sys/features.h \
- /usr/arm-none-eabi/include/sys/reent.h \
- /usr/arm-none-eabi/include/_ansi.h \
- /usr/lib/gcc/arm-none-eabi/11.2.1/include/stddef.h \
- /usr/arm-none-eabi/include/sys/_types.h \
- /usr/arm-none-eabi/include/machine/_types.h \
- /usr/arm-none-eabi/include/machine/_default_types.h \
- /usr/arm-none-eabi/include/sys/lock.h \
- /usr/arm-none-eabi/include/sys/cdefs.h \
- /usr/arm-none-eabi/include/sys/_locale.h \
- /usr/arm-none-eabi/include/strings.h \
- /usr/arm-none-eabi/include/sys/string.h \
- /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
- /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h \
- /usr/lib/gcc/arm-none-eabi/11.2.1/include/stdint.h \
- /usr/arm-none-eabi/include/stdint.h \
- /usr/arm-none-eabi/include/sys/_intsup.h \
- /usr/arm-none-eabi/include/sys/_stdint.h \
- /home/ghostdog/datalogger-mic/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/diskio.h \
- /usr/lib/gcc/arm-none-eabi/11.2.1/include/stdarg.h \
- /usr/arm-none-eabi/include/math.h
+ /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c \
+ /usr/local/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/string.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/_ansi.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/newlib.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/_newlib_version.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/sys/config.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/machine/ieeefp.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/sys/features.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/sys/reent.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/_ansi.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/lib/gcc/arm-none-eabi/10.2.1/include/stddef.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/sys/_types.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/machine/_types.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/machine/_default_types.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/sys/lock.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/sys/cdefs.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/sys/_locale.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/strings.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/sys/string.h \
+ /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
+ /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/lib/gcc/arm-none-eabi/10.2.1/include/stdint.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/stdint.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/sys/_intsup.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/sys/_stdint.h \
+ /Users/aronj23/pico-microphone/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/diskio.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/lib/gcc/arm-none-eabi/10.2.1/include/stdarg.h \
+ /usr/local/Cellar/arm-none-eabi-gcc/10-2020-q4-major/gcc/arm-none-eabi/include/math.h

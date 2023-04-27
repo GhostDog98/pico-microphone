@@ -1,4 +1,4 @@
-# Install script for directory: /usr/share/pico-sdk/src/common
+# Install script for directory: /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,22 +34,22 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/arm-none-eabi-objdump")
+  set(CMAKE_OBJDUMP "/usr/local/bin/arm-none-eabi-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ghostdog/datalogger-mic/build/pico-sdk/src/common/boot_picoboot/cmake_install.cmake")
-  include("/home/ghostdog/datalogger-mic/build/pico-sdk/src/common/boot_uf2/cmake_install.cmake")
-  include("/home/ghostdog/datalogger-mic/build/pico-sdk/src/common/pico_base/cmake_install.cmake")
-  include("/home/ghostdog/datalogger-mic/build/pico-sdk/src/common/pico_usb_reset_interface/cmake_install.cmake")
-  include("/home/ghostdog/datalogger-mic/build/pico-sdk/src/common/pico_bit_ops/cmake_install.cmake")
-  include("/home/ghostdog/datalogger-mic/build/pico-sdk/src/common/pico_binary_info/cmake_install.cmake")
-  include("/home/ghostdog/datalogger-mic/build/pico-sdk/src/common/pico_divider/cmake_install.cmake")
-  include("/home/ghostdog/datalogger-mic/build/pico-sdk/src/common/pico_sync/cmake_install.cmake")
-  include("/home/ghostdog/datalogger-mic/build/pico-sdk/src/common/pico_time/cmake_install.cmake")
-  include("/home/ghostdog/datalogger-mic/build/pico-sdk/src/common/pico_util/cmake_install.cmake")
-  include("/home/ghostdog/datalogger-mic/build/pico-sdk/src/common/pico_stdlib/cmake_install.cmake")
+  include("/Users/aronj23/pico-microphone/build/pico-sdk/src/common/boot_picoboot/cmake_install.cmake")
+  include("/Users/aronj23/pico-microphone/build/pico-sdk/src/common/boot_uf2/cmake_install.cmake")
+  include("/Users/aronj23/pico-microphone/build/pico-sdk/src/common/pico_base/cmake_install.cmake")
+  include("/Users/aronj23/pico-microphone/build/pico-sdk/src/common/pico_usb_reset_interface/cmake_install.cmake")
+  include("/Users/aronj23/pico-microphone/build/pico-sdk/src/common/pico_bit_ops/cmake_install.cmake")
+  include("/Users/aronj23/pico-microphone/build/pico-sdk/src/common/pico_binary_info/cmake_install.cmake")
+  include("/Users/aronj23/pico-microphone/build/pico-sdk/src/common/pico_divider/cmake_install.cmake")
+  include("/Users/aronj23/pico-microphone/build/pico-sdk/src/common/pico_sync/cmake_install.cmake")
+  include("/Users/aronj23/pico-microphone/build/pico-sdk/src/common/pico_time/cmake_install.cmake")
+  include("/Users/aronj23/pico-microphone/build/pico-sdk/src/common/pico_util/cmake_install.cmake")
+  include("/Users/aronj23/pico-microphone/build/pico-sdk/src/common/pico_stdlib/cmake_install.cmake")
 
 endif()
 

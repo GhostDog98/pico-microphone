@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.26.0/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /usr/local/Cellar/cmake/3.26.0/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ghostdog/datalogger-mic
+CMAKE_SOURCE_DIR = /Users/aronj23/pico-microphone
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ghostdog/datalogger-mic/build
+CMAKE_BINARY_DIR = /Users/aronj23/pico-microphone/build
 
 # Utility rule file for cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.
 
@@ -68,9 +68,9 @@ include pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
 
-pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h: /usr/share/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ghostdog/datalogger-mic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_bus_pio_spi.pio.h"
-	cd /home/ghostdog/datalogger-mic/build/pico-sdk/src/rp2_common/pico_cyw43_driver && ../../../../pioasm/pioasm -o c-sdk /usr/share/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio /home/ghostdog/datalogger-mic/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
+pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h: _deps/pico_sdk-src/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/aronj23/pico-microphone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_bus_pio_spi.pio.h"
+	cd /Users/aronj23/pico-microphone/build/pico-sdk/src/rp2_common/pico_cyw43_driver && ../../../../pioasm/pioasm -o c-sdk /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio /Users/aronj23/pico-microphone/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
 
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
@@ -82,10 +82,10 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bu
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/clean:
-	cd /home/ghostdog/datalogger-mic/build/pico-sdk/src/rp2_common/pico_cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/cmake_clean.cmake
+	cd /Users/aronj23/pico-microphone/build/pico-sdk/src/rp2_common/pico_cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/clean
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/depend:
-	cd /home/ghostdog/datalogger-mic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ghostdog/datalogger-mic /usr/share/pico-sdk/src/rp2_common/pico_cyw43_driver /home/ghostdog/datalogger-mic/build /home/ghostdog/datalogger-mic/build/pico-sdk/src/rp2_common/pico_cyw43_driver /home/ghostdog/datalogger-mic/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/aronj23/pico-microphone/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aronj23/pico-microphone /Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/src/rp2_common/pico_cyw43_driver /Users/aronj23/pico-microphone/build /Users/aronj23/pico-microphone/build/pico-sdk/src/rp2_common/pico_cyw43_driver /Users/aronj23/pico-microphone/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/depend
 

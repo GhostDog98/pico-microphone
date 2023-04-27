@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/usr/share/pico-sdk/tools/elf2uf2/main.cpp" "CMakeFiles/elf2uf2.dir/main.cpp.o" "gcc" "CMakeFiles/elf2uf2.dir/main.cpp.o.d"
+  "/Users/aronj23/pico-microphone/build/_deps/pico_sdk-src/tools/elf2uf2/main.cpp" "CMakeFiles/elf2uf2.dir/main.cpp.o" "gcc" "CMakeFiles/elf2uf2.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
